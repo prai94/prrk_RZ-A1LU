@@ -1,0 +1,53 @@
+
+
+U-Boot 2017.05-g331a150 (Apr 09 2023 - 01:34:46 +0530)
+
+CPU: Renesas Electronics CPU rev 0.0
+Board: STREAMIT
+I2C:   ready
+DRAM:  3 MiB
+SF: Detected mx25l51235f with page size 256 Bytes, erase size 64 KiB, total 64 MiB
+*** Warning - bad CRC, using default environment
+
+In:    serial_sh
+Out:   serial_sh
+Err:   serial_sh
+		      SPI Flash Memory Map
+		------------------------------------
+		         Start      Size     SPI
+		u-boot:  0x00000000 0x080000 0
+		   env:  0x00080000 0x040000 0
+		    DT:  0x000C0000 0x040000 0
+		Kernel:  0x00200000 0x600000 0
+		rootfs:  0x00800000 0x1C00000 0
+Net:   Please set MAC address
+sh_eth
+Error: sh_eth address not set.
+
+=> run xsa_boot
+SF: Detected mx25l51235f with page size 256 Bytes, erase size 64 KiB, total 64 MiB
+device 0 offset 0xc0000, size 0x8000
+SF: 32768 bytes @ 0xc0000 Read: OK
+Current Mode: Read Mode (3-byte Addr) (RZ/A1 reset value)
+SF: Detected mx25l51235f with page size 256 Bytes, erase size 64 KiB, total 64 MiB
+New Mode: Quad I/O Read Mode (4-byte Addr)
+Booting Linux...
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.19.131-g07e5dd28e (priyank@priyank-Lenovo-G50-70) (gcc version 8.2.1 20180802 (GNU Toolchain for the A-profile Architecture 8.2-2018.11 (arm-rel-8.26))) #2 Sat Apr 8 18:07:58 IST 2023
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=58c53c7d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] OF: fdt: Machine model: STREAMIT
+[    0.000000] debug: ignoring loglevel setting.
+[    0.000000] earlycon: scif0 at MMIO 0xe8008800 (options '115200n8')
+[    0.000000] bootconsole [scif0] enabled
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] On node 0 totalpages: 8192
+[    0.000000]   Normal zone: 64 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 8192 pages, LIFO batch:0
+[    0.000000] CPU: All CPU(s) started in SVC mode.
+[    0.000000] random: get_random_bytes called from start_kernel+0x5b/0x2d4 with crng_init=0
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 8128
+[    0.000000] Kernel command line: ignore_l  ы ас
