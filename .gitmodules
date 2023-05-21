@@ -1,0 +1,3 @@
+[submodule "rza_linux-4.19_bsp"]
+	path = rza_linux-4.19_bsp
+	url = https://github.com/prai94/prrk_RZ-A1LU.git

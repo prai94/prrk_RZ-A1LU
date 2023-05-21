@@ -1,0 +1,235 @@
+target.o: ../../gdb/target.c ../../gdb/defs.h \
+ ../../gdb/common/common-defs.h config.h build-gnulib/config.h \
+ build-gnulib/import/stdio.h build-gnulib/import/stdlib.h \
+ build-gnulib/import/string.h ../../gdb/../include/ansidecl.h \
+ ../../gdb/../include/libiberty.h ../../gdb/../include/ansidecl.h \
+ ../../gdb/gnulib/import/pathmax.h build-gnulib/import/unistd.h \
+ ../../gdb/../include/gdb/signals.h ../../gdb/../include/gdb/signals.def \
+ ../../gdb/common/gdb_locale.h ../../gdb/common/ptid.h \
+ ../../gdb/common/common-utils.h ../../gdb/common/gdb_assert.h \
+ ../../gdb/common/errors.h ../../gdb/common/common-types.h ../bfd/bfd.h \
+ ../../gdb/../include/symcat.h build-gnulib/import/sys/stat.h \
+ ../../gdb/common/print-utils.h ../../gdb/common/common-debug.h \
+ ../../gdb/common/cleanups.h ../../gdb/common/common-exceptions.h \
+ ../../gdb/common/gdb_setjmp.h ../../gdb/gdb_wchar.h \
+ build-gnulib/import/wchar.h build-gnulib/import/wctype.h \
+ ../../gdb/ui-file.h ../../gdb/common/host-defs.h \
+ ../../gdb/../include/hashtab.h ../../gdb/../include/fopen-bin.h \
+ ../../gdb/gdbarch.h ../../gdb/frame.h ../../gdb/unwind_stop_reasons.def \
+ ../../gdb/utils.h ../../gdb/exceptions.h ../../gdb/ui-out.h \
+ ../../gdb/target.h ../../gdb/target/target.h \
+ ../../gdb/target/waitstatus.h ../../gdb/common/gdb_signals.h \
+ ../../gdb/target/resume.h ../../gdb/target/wait.h \
+ ../../gdb/target/waitstatus.h ../../gdb/symtab.h ../../gdb/common/vec.h \
+ ../../gdb/common/gdb_vecs.h ../../gdb/common/vec.h ../../gdb/gdbtypes.h \
+ ../../gdb/minsyms.h ../../gdb/memattr.h ../../gdb/btrace.h \
+ ../../gdb/common/btrace-common.h ../../gdb/command.h \
+ ../../gdb/target-dcache.h ../../gdb/dcache.h ../../gdb/gdbcmd.h \
+ ../../gdb/inferior.h ../../gdb/breakpoint.h ../../gdb/value.h \
+ ../../gdb/doublest.h ../../gdb/../include/floatformat.h \
+ ../../gdb/expression.h ../../gdb/std-operator.def \
+ ../../gdb/ada-operator.def ../../gdb/ax.h ../../gdb/common/ax.def \
+ ../../gdb/common/break-common.h ../../gdb/probe.h ../../gdb/progspace.h \
+ ../../gdb/registry.h ../../gdb/infrun.h ../../gdb/symfile.h \
+ ../../gdb/objfiles.h ../../gdb/gdb_obstack.h \
+ ../../gdb/../include/obstack.h ../../gdb/gdb_bfd.h ../../gdb/regcache.h \
+ ../../gdb/common/common-regcache.h ../../gdb/gdbcore.h ../../gdb/exec.h \
+ ../../gdb/memrange.h ../../gdb/target-descriptions.h \
+ ../../gdb/gdbthread.h ../../gdb/common/vec.h ../../gdb/solib.h \
+ ../../gdb/inline-frame.h ../../gdb/tracepoint.h \
+ ../../gdb/../include/gdb/fileio.h ../../gdb/common/agent.h \
+ ../../gdb/auxv.h ../../gdb/target-debug.h ../../gdb/target-delegates.c
+
+../../gdb/defs.h:
+
+../../gdb/common/common-defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+build-gnulib/import/stdio.h:
+
+build-gnulib/import/stdlib.h:
+
+build-gnulib/import/string.h:
+
+../../gdb/../include/ansidecl.h:
+
+../../gdb/../include/libiberty.h:
+
+../../gdb/../include/ansidecl.h:
+
+../../gdb/gnulib/import/pathmax.h:
+
+build-gnulib/import/unistd.h:
+
+../../gdb/../include/gdb/signals.h:
+
+../../gdb/../include/gdb/signals.def:
+
+../../gdb/common/gdb_locale.h:
+
+../../gdb/common/ptid.h:
+
+../../gdb/common/common-utils.h:
+
+../../gdb/common/gdb_assert.h:
+
+../../gdb/common/errors.h:
+
+../../gdb/common/common-types.h:
+
+../bfd/bfd.h:
+
+../../gdb/../include/symcat.h:
+
+build-gnulib/import/sys/stat.h:
+
+../../gdb/common/print-utils.h:
+
+../../gdb/common/common-debug.h:
+
+../../gdb/common/cleanups.h:
+
+../../gdb/common/common-exceptions.h:
+
+../../gdb/common/gdb_setjmp.h:
+
+../../gdb/gdb_wchar.h:
+
+build-gnulib/import/wchar.h:
+
+build-gnulib/import/wctype.h:
+
+../../gdb/ui-file.h:
+
+../../gdb/common/host-defs.h:
+
+../../gdb/../include/hashtab.h:
+
+../../gdb/../include/fopen-bin.h:
+
+../../gdb/gdbarch.h:
+
+../../gdb/frame.h:
+
+../../gdb/unwind_stop_reasons.def:
+
+../../gdb/utils.h:
+
+../../gdb/exceptions.h:
+
+../../gdb/ui-out.h:
+
+../../gdb/target.h:
+
+../../gdb/target/target.h:
+
+../../gdb/target/waitstatus.h:
+
+../../gdb/common/gdb_signals.h:
+
+../../gdb/target/resume.h:
+
+../../gdb/target/wait.h:
+
+../../gdb/target/waitstatus.h:
+
+../../gdb/symtab.h:
+
+../../gdb/common/vec.h:
+
+../../gdb/common/gdb_vecs.h:
+
+../../gdb/common/vec.h:
+
+../../gdb/gdbtypes.h:
+
+../../gdb/minsyms.h:
+
+../../gdb/memattr.h:
+
+../../gdb/btrace.h:
+
+../../gdb/common/btrace-common.h:
+
+../../gdb/command.h:
+
+../../gdb/target-dcache.h:
+
+../../gdb/dcache.h:
+
+../../gdb/gdbcmd.h:
+
+../../gdb/inferior.h:
+
+../../gdb/breakpoint.h:
+
+../../gdb/value.h:
+
+../../gdb/doublest.h:
+
+../../gdb/../include/floatformat.h:
+
+../../gdb/expression.h:
+
+../../gdb/std-operator.def:
+
+../../gdb/ada-operator.def:
+
+../../gdb/ax.h:
+
+../../gdb/common/ax.def:
+
+../../gdb/common/break-common.h:
+
+../../gdb/probe.h:
+
+../../gdb/progspace.h:
+
+../../gdb/registry.h:
+
+../../gdb/infrun.h:
+
+../../gdb/symfile.h:
+
+../../gdb/objfiles.h:
+
+../../gdb/gdb_obstack.h:
+
+../../gdb/../include/obstack.h:
+
+../../gdb/gdb_bfd.h:
+
+../../gdb/regcache.h:
+
+../../gdb/common/common-regcache.h:
+
+../../gdb/gdbcore.h:
+
+../../gdb/exec.h:
+
+../../gdb/memrange.h:
+
+../../gdb/target-descriptions.h:
+
+../../gdb/gdbthread.h:
+
+../../gdb/common/vec.h:
+
+../../gdb/solib.h:
+
+../../gdb/inline-frame.h:
+
+../../gdb/tracepoint.h:
+
+../../gdb/../include/gdb/fileio.h:
+
+../../gdb/common/agent.h:
+
+../../gdb/auxv.h:
+
+../../gdb/target-debug.h:
+
+../../gdb/target-delegates.c:

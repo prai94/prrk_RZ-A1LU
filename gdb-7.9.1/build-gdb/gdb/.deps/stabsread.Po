@@ -1,0 +1,210 @@
+stabsread.o: ../../gdb/stabsread.c ../../gdb/defs.h \
+ ../../gdb/common/common-defs.h config.h build-gnulib/config.h \
+ build-gnulib/import/stdio.h build-gnulib/import/stdlib.h \
+ build-gnulib/import/string.h ../../gdb/../include/ansidecl.h \
+ ../../gdb/../include/libiberty.h ../../gdb/../include/ansidecl.h \
+ ../../gdb/gnulib/import/pathmax.h build-gnulib/import/unistd.h \
+ ../../gdb/../include/gdb/signals.h ../../gdb/../include/gdb/signals.def \
+ ../../gdb/common/gdb_locale.h ../../gdb/common/ptid.h \
+ ../../gdb/common/common-utils.h ../../gdb/common/gdb_assert.h \
+ ../../gdb/common/errors.h ../../gdb/common/common-types.h ../bfd/bfd.h \
+ ../../gdb/../include/symcat.h build-gnulib/import/sys/stat.h \
+ ../../gdb/common/print-utils.h ../../gdb/common/common-debug.h \
+ ../../gdb/common/cleanups.h ../../gdb/common/common-exceptions.h \
+ ../../gdb/common/gdb_setjmp.h ../../gdb/gdb_wchar.h \
+ build-gnulib/import/wchar.h build-gnulib/import/wctype.h \
+ ../../gdb/ui-file.h ../../gdb/common/host-defs.h \
+ ../../gdb/../include/hashtab.h ../../gdb/../include/fopen-bin.h \
+ ../../gdb/gdbarch.h ../../gdb/frame.h ../../gdb/unwind_stop_reasons.def \
+ ../../gdb/utils.h ../../gdb/exceptions.h ../../gdb/ui-out.h \
+ ../../gdb/gdb_obstack.h ../../gdb/../include/obstack.h \
+ ../../gdb/symtab.h ../../gdb/common/vec.h ../../gdb/common/gdb_vecs.h \
+ ../../gdb/common/vec.h ../../gdb/gdbtypes.h ../../gdb/minsyms.h \
+ ../../gdb/expression.h ../../gdb/doublest.h \
+ ../../gdb/../include/floatformat.h ../../gdb/std-operator.def \
+ ../../gdb/ada-operator.def ../../gdb/symfile.h ../../gdb/probe.h \
+ ../../gdb/objfiles.h ../../gdb/progspace.h ../../gdb/target.h \
+ ../../gdb/target/target.h ../../gdb/target/waitstatus.h \
+ ../../gdb/common/gdb_signals.h ../../gdb/target/resume.h \
+ ../../gdb/target/wait.h ../../gdb/target/waitstatus.h \
+ ../../gdb/memattr.h ../../gdb/btrace.h ../../gdb/common/btrace-common.h \
+ ../../gdb/command.h ../../gdb/registry.h ../../gdb/gdb_bfd.h \
+ ../../gdb/../include/aout/stab_gnu.h ../../gdb/../include/aout/stab.def \
+ ../../gdb/../bfd/libaout.h ../../gdb/../include/bfdlink.h \
+ ../../gdb/../include/aout/aout64.h ../../gdb/gdb-stabs.h \
+ ../../gdb/buildsym.h ../../gdb/complaints.h \
+ ../../gdb/../include/demangle.h ../../gdb/../include/libiberty.h \
+ ../../gdb/gdb-demangle.h ../../gdb/language.h ../../gdb/cp-abi.h \
+ ../../gdb/cp-support.h ../../gdb/stabsread.h
+
+../../gdb/defs.h:
+
+../../gdb/common/common-defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+build-gnulib/import/stdio.h:
+
+build-gnulib/import/stdlib.h:
+
+build-gnulib/import/string.h:
+
+../../gdb/../include/ansidecl.h:
+
+../../gdb/../include/libiberty.h:
+
+../../gdb/../include/ansidecl.h:
+
+../../gdb/gnulib/import/pathmax.h:
+
+build-gnulib/import/unistd.h:
+
+../../gdb/../include/gdb/signals.h:
+
+../../gdb/../include/gdb/signals.def:
+
+../../gdb/common/gdb_locale.h:
+
+../../gdb/common/ptid.h:
+
+../../gdb/common/common-utils.h:
+
+../../gdb/common/gdb_assert.h:
+
+../../gdb/common/errors.h:
+
+../../gdb/common/common-types.h:
+
+../bfd/bfd.h:
+
+../../gdb/../include/symcat.h:
+
+build-gnulib/import/sys/stat.h:
+
+../../gdb/common/print-utils.h:
+
+../../gdb/common/common-debug.h:
+
+../../gdb/common/cleanups.h:
+
+../../gdb/common/common-exceptions.h:
+
+../../gdb/common/gdb_setjmp.h:
+
+../../gdb/gdb_wchar.h:
+
+build-gnulib/import/wchar.h:
+
+build-gnulib/import/wctype.h:
+
+../../gdb/ui-file.h:
+
+../../gdb/common/host-defs.h:
+
+../../gdb/../include/hashtab.h:
+
+../../gdb/../include/fopen-bin.h:
+
+../../gdb/gdbarch.h:
+
+../../gdb/frame.h:
+
+../../gdb/unwind_stop_reasons.def:
+
+../../gdb/utils.h:
+
+../../gdb/exceptions.h:
+
+../../gdb/ui-out.h:
+
+../../gdb/gdb_obstack.h:
+
+../../gdb/../include/obstack.h:
+
+../../gdb/symtab.h:
+
+../../gdb/common/vec.h:
+
+../../gdb/common/gdb_vecs.h:
+
+../../gdb/common/vec.h:
+
+../../gdb/gdbtypes.h:
+
+../../gdb/minsyms.h:
+
+../../gdb/expression.h:
+
+../../gdb/doublest.h:
+
+../../gdb/../include/floatformat.h:
+
+../../gdb/std-operator.def:
+
+../../gdb/ada-operator.def:
+
+../../gdb/symfile.h:
+
+../../gdb/probe.h:
+
+../../gdb/objfiles.h:
+
+../../gdb/progspace.h:
+
+../../gdb/target.h:
+
+../../gdb/target/target.h:
+
+../../gdb/target/waitstatus.h:
+
+../../gdb/common/gdb_signals.h:
+
+../../gdb/target/resume.h:
+
+../../gdb/target/wait.h:
+
+../../gdb/target/waitstatus.h:
+
+../../gdb/memattr.h:
+
+../../gdb/btrace.h:
+
+../../gdb/common/btrace-common.h:
+
+../../gdb/command.h:
+
+../../gdb/registry.h:
+
+../../gdb/gdb_bfd.h:
+
+../../gdb/../include/aout/stab_gnu.h:
+
+../../gdb/../include/aout/stab.def:
+
+../../gdb/../bfd/libaout.h:
+
+../../gdb/../include/bfdlink.h:
+
+../../gdb/../include/aout/aout64.h:
+
+../../gdb/gdb-stabs.h:
+
+../../gdb/buildsym.h:
+
+../../gdb/complaints.h:
+
+../../gdb/../include/demangle.h:
+
+../../gdb/../include/libiberty.h:
+
+../../gdb/gdb-demangle.h:
+
+../../gdb/language.h:
+
+../../gdb/cp-abi.h:
+
+../../gdb/cp-support.h:
+
+../../gdb/stabsread.h:

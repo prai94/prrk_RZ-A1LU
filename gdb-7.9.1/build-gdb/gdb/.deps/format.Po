@@ -1,0 +1,70 @@
+format.o: ../../gdb/common/format.c ../../gdb/common/common-defs.h \
+ config.h build-gnulib/config.h build-gnulib/import/stdio.h \
+ build-gnulib/import/stdlib.h build-gnulib/import/string.h \
+ ../../gdb/../include/ansidecl.h ../../gdb/../include/libiberty.h \
+ ../../gdb/../include/ansidecl.h ../../gdb/gnulib/import/pathmax.h \
+ build-gnulib/import/unistd.h ../../gdb/../include/gdb/signals.h \
+ ../../gdb/../include/gdb/signals.def ../../gdb/common/gdb_locale.h \
+ ../../gdb/common/ptid.h ../../gdb/common/common-utils.h \
+ ../../gdb/common/gdb_assert.h ../../gdb/common/errors.h \
+ ../../gdb/common/common-types.h ../bfd/bfd.h \
+ ../../gdb/../include/symcat.h build-gnulib/import/sys/stat.h \
+ ../../gdb/common/print-utils.h ../../gdb/common/common-debug.h \
+ ../../gdb/common/cleanups.h ../../gdb/common/common-exceptions.h \
+ ../../gdb/common/gdb_setjmp.h ../../gdb/common/format.h
+
+../../gdb/common/common-defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+build-gnulib/import/stdio.h:
+
+build-gnulib/import/stdlib.h:
+
+build-gnulib/import/string.h:
+
+../../gdb/../include/ansidecl.h:
+
+../../gdb/../include/libiberty.h:
+
+../../gdb/../include/ansidecl.h:
+
+../../gdb/gnulib/import/pathmax.h:
+
+build-gnulib/import/unistd.h:
+
+../../gdb/../include/gdb/signals.h:
+
+../../gdb/../include/gdb/signals.def:
+
+../../gdb/common/gdb_locale.h:
+
+../../gdb/common/ptid.h:
+
+../../gdb/common/common-utils.h:
+
+../../gdb/common/gdb_assert.h:
+
+../../gdb/common/errors.h:
+
+../../gdb/common/common-types.h:
+
+../bfd/bfd.h:
+
+../../gdb/../include/symcat.h:
+
+build-gnulib/import/sys/stat.h:
+
+../../gdb/common/print-utils.h:
+
+../../gdb/common/common-debug.h:
+
+../../gdb/common/cleanups.h:
+
+../../gdb/common/common-exceptions.h:
+
+../../gdb/common/gdb_setjmp.h:
+
+../../gdb/common/format.h:

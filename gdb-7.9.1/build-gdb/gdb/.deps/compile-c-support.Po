@@ -1,0 +1,166 @@
+compile-c-support.o: ../../gdb/compile/compile-c-support.c \
+ ../../gdb/defs.h ../../gdb/common/common-defs.h config.h \
+ build-gnulib/config.h build-gnulib/import/stdio.h \
+ build-gnulib/import/stdlib.h build-gnulib/import/string.h \
+ ../../gdb/../include/ansidecl.h ../../gdb/../include/libiberty.h \
+ ../../gdb/../include/ansidecl.h ../../gdb/gnulib/import/pathmax.h \
+ build-gnulib/import/unistd.h ../../gdb/../include/gdb/signals.h \
+ ../../gdb/../include/gdb/signals.def ../../gdb/common/gdb_locale.h \
+ ../../gdb/common/ptid.h ../../gdb/common/common-utils.h \
+ ../../gdb/common/gdb_assert.h ../../gdb/common/errors.h \
+ ../../gdb/common/common-types.h ../bfd/bfd.h \
+ ../../gdb/../include/symcat.h build-gnulib/import/sys/stat.h \
+ ../../gdb/common/print-utils.h ../../gdb/common/common-debug.h \
+ ../../gdb/common/cleanups.h ../../gdb/common/common-exceptions.h \
+ ../../gdb/common/gdb_setjmp.h ../../gdb/gdb_wchar.h \
+ build-gnulib/import/wchar.h build-gnulib/import/wctype.h \
+ ../../gdb/ui-file.h ../../gdb/common/host-defs.h \
+ ../../gdb/../include/hashtab.h ../../gdb/../include/fopen-bin.h \
+ ../../gdb/gdbarch.h ../../gdb/frame.h ../../gdb/unwind_stop_reasons.def \
+ ../../gdb/utils.h ../../gdb/exceptions.h ../../gdb/ui-out.h \
+ ../../gdb/compile/compile-internal.h \
+ ../../gdb/../include/gcc-c-interface.h \
+ ../../gdb/../include/gcc-interface.h ../../gdb/../include/gcc-c-fe.def \
+ ../../gdb/compile/compile.h ../../gdb/gdb-dlfcn.h ../../gdb/c-lang.h \
+ ../../gdb/value.h ../../gdb/doublest.h \
+ ../../gdb/../include/floatformat.h ../../gdb/symtab.h \
+ ../../gdb/common/vec.h ../../gdb/common/gdb_vecs.h \
+ ../../gdb/common/vec.h ../../gdb/gdbtypes.h ../../gdb/minsyms.h \
+ ../../gdb/expression.h ../../gdb/std-operator.def \
+ ../../gdb/ada-operator.def ../../gdb/macroexp.h ../../gdb/parser-defs.h \
+ ../../gdb/macrotab.h ../../gdb/macroscope.h ../../gdb/macrotab.h \
+ ../../gdb/regcache.h ../../gdb/common/common-regcache.h
+
+../../gdb/defs.h:
+
+../../gdb/common/common-defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+build-gnulib/import/stdio.h:
+
+build-gnulib/import/stdlib.h:
+
+build-gnulib/import/string.h:
+
+../../gdb/../include/ansidecl.h:
+
+../../gdb/../include/libiberty.h:
+
+../../gdb/../include/ansidecl.h:
+
+../../gdb/gnulib/import/pathmax.h:
+
+build-gnulib/import/unistd.h:
+
+../../gdb/../include/gdb/signals.h:
+
+../../gdb/../include/gdb/signals.def:
+
+../../gdb/common/gdb_locale.h:
+
+../../gdb/common/ptid.h:
+
+../../gdb/common/common-utils.h:
+
+../../gdb/common/gdb_assert.h:
+
+../../gdb/common/errors.h:
+
+../../gdb/common/common-types.h:
+
+../bfd/bfd.h:
+
+../../gdb/../include/symcat.h:
+
+build-gnulib/import/sys/stat.h:
+
+../../gdb/common/print-utils.h:
+
+../../gdb/common/common-debug.h:
+
+../../gdb/common/cleanups.h:
+
+../../gdb/common/common-exceptions.h:
+
+../../gdb/common/gdb_setjmp.h:
+
+../../gdb/gdb_wchar.h:
+
+build-gnulib/import/wchar.h:
+
+build-gnulib/import/wctype.h:
+
+../../gdb/ui-file.h:
+
+../../gdb/common/host-defs.h:
+
+../../gdb/../include/hashtab.h:
+
+../../gdb/../include/fopen-bin.h:
+
+../../gdb/gdbarch.h:
+
+../../gdb/frame.h:
+
+../../gdb/unwind_stop_reasons.def:
+
+../../gdb/utils.h:
+
+../../gdb/exceptions.h:
+
+../../gdb/ui-out.h:
+
+../../gdb/compile/compile-internal.h:
+
+../../gdb/../include/gcc-c-interface.h:
+
+../../gdb/../include/gcc-interface.h:
+
+../../gdb/../include/gcc-c-fe.def:
+
+../../gdb/compile/compile.h:
+
+../../gdb/gdb-dlfcn.h:
+
+../../gdb/c-lang.h:
+
+../../gdb/value.h:
+
+../../gdb/doublest.h:
+
+../../gdb/../include/floatformat.h:
+
+../../gdb/symtab.h:
+
+../../gdb/common/vec.h:
+
+../../gdb/common/gdb_vecs.h:
+
+../../gdb/common/vec.h:
+
+../../gdb/gdbtypes.h:
+
+../../gdb/minsyms.h:
+
+../../gdb/expression.h:
+
+../../gdb/std-operator.def:
+
+../../gdb/ada-operator.def:
+
+../../gdb/macroexp.h:
+
+../../gdb/parser-defs.h:
+
+../../gdb/macrotab.h:
+
+../../gdb/macroscope.h:
+
+../../gdb/macrotab.h:
+
+../../gdb/regcache.h:
+
+../../gdb/common/common-regcache.h:
