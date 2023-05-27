@@ -1,3 +1,6 @@
+Google docs
+https://docs.google.com/document/d/1w8GyxMWnA_x7lYa58piy5L2TIFpZt8YwVmeIJ8Zt2W8/edit?usp=sharing
+
 Host machine: Ubuntu 18.04
 Clone git repo:
 git clone https://github.com/renesas-rz/rza_linux-4.19_bsp.git
